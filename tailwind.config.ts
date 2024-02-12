@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+const plugin = require("tailwindcss/plugin");
 
 const config = {
   darkMode: ["class"],
@@ -66,6 +67,7 @@ const config = {
       },
       fontSize: {
         xl: ["20px", "24px"],
+        "4xl": ["40px", "44px"],
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -88,7 +90,12 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    plugin(function ({ addVariant }: any) {
+      addVariant("onScroll", ".onScroll &");
+    }),
+  ],
 } satisfies Config;
 
 export default config;

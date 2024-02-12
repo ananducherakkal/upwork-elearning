@@ -1,0 +1,6 @@
+[
+  { "id": 1, "label": "Home", "href": "/" },
+  { "id": 2, "label": "Solutions" },
+  { "id": 3, "label": "View Features" },
+  { "id": 4, "label": "Pricing" }
+]

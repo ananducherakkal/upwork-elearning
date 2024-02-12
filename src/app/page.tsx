@@ -1,11 +1,11 @@
-import Button from "@/components/ui/button";
+import Header from "@/components/header/header";
 import React from "react";
 
 function Home() {
   return (
-    <div>
-      <Button>ssdf</Button>
-    </div>
+    <nav className="w-full min-h-full flex flex-col">
+      <Header />
+    </nav>
   );
 }
 
