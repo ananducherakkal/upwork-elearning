@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./topSection.module.css";
+import styles from "./home.module.css";
 import { cn } from "@/utils/shadcn";
 import Image from "next/image";
 import TopSectionTitle from "./topSectionTitle";
@@ -8,19 +8,13 @@ import TopSectionImage from "./topSectionImage";
 
 function TopSection() {
   return (
-    // <div
-    //   className={cn(
-    //     "w-full h-fit min-h-screen bg-primary pt-24 grid grid-cols-8 grid-rows-fr pl-20 pr-16",
-    //     styles.background
-    //   )}
-    // >
     <div
       className={cn(
-        "w-full bg-primary px-4 md:pl-20 md:pr-16",
-        styles.background
+        "w-full bg-primary px-4 md:pl-20 md:pr-16 snap-start",
+        styles.backgroundTopSection
       )}
     >
-      <div className="w-full h-fit min-h-screen pt-24 max-w-content mx-auto grid grid-cols-8 grid-rows-fr">
+      <div className="w-full h-fit min-h-screen max-w-content pt-24 mx-auto grid grid-cols-8 grid-rows-fr">
         <div className="min-h-min row-start-1 row-span-1 col-start-1 col-span-8 lg:col-span-4">
           <TopSectionTitle />
         </div>

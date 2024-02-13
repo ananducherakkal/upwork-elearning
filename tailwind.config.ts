@@ -69,10 +69,11 @@ const config = {
         content: "1600px",
       },
       fontSize: {
-        lg: ["18px", "28.8px"],
+        lg: ["18px", "29px"],
         xl: ["20px", "24px"],
-        "4xl": ["40px", "44px"],
         "2xl": ["25px", "38px"],
+        "4xl": ["40px", "44px"],
+        "5xl": ["48px", "53px"],
         "8xl": ["96px", "106px"],
       },
       borderRadius: {
