@@ -66,8 +66,11 @@ const config = {
         },
       },
       fontSize: {
+        lg: ["18px", "28.8px"],
         xl: ["20px", "24px"],
         "4xl": ["40px", "44px"],
+        "2xl": ["25px", "37.5px"],
+        "8xl": ["96px", "105.6pxpx"],
       },
       borderRadius: {
         lg: "var(--radius)",
