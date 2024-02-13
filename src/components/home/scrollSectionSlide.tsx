@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { cn } from "@/utils/shadcn";
 import styles from "@/components/home/home.module.css";
@@ -33,7 +34,7 @@ function ScrollSectionSlide(props: ScrollSectionSlideProps) {
       >
         <div className="w-full h-fit md:h-full p-5 flex items-center md:items-start justify-center">
           <Image
-            src="/images/background-image-2.svg"
+            src="/images/background-image-2.png"
             alt="home background image"
             width="268"
             height="561"
