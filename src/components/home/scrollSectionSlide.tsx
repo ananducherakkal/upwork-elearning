@@ -18,7 +18,7 @@ function ScrollSectionSlide(props: ScrollSectionSlideProps) {
         "w-full h-screen flex flex-col-reverse md:flex-row",
         className,
         top ? styles.backgroundScrollSection : "",
-        top ? "z-20 md:z-10" : "z-10 md:z-20 snap-start"
+        top ? "z-20 md:-z-10" : "z-10 md:z-20 snap-start"
       )}
     >
       <div className="h-[50%] md:h-full md:min-h-none w-full md:w-1/2 flex items-center justify-center p-10">
@@ -26,7 +26,7 @@ function ScrollSectionSlide(props: ScrollSectionSlideProps) {
       </div>
       <div
         className={cn(
-          "h-fit md:h-full w-full md:w-1/2 overflow-visible md:mt-24 bg-gray-10 md:bg-transparent",
+          "h-fit md:h-full w-full md:w-1/2 overflow-visible md:mt-24 bg-gray-10 border-t-[100px] border-gray-10 md:border-none md:bg-transparent",
           top ? "" : "opacity-0",
           styles.backgroundScrollSectionMax
         )}
