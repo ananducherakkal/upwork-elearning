@@ -65,12 +65,15 @@ const config = {
           foreground: "rgb(var(--gray-90) / <alpha-value>)",
         },
       },
+      maxWidth: {
+        content: "1600px",
+      },
       fontSize: {
         lg: ["18px", "28.8px"],
         xl: ["20px", "24px"],
         "4xl": ["40px", "44px"],
-        "2xl": ["25px", "37.5px"],
-        "8xl": ["96px", "105.6pxpx"],
+        "2xl": ["25px", "38px"],
+        "8xl": ["96px", "106px"],
       },
       borderRadius: {
         lg: "var(--radius)",

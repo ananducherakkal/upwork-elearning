@@ -3,13 +3,13 @@ import React from "react";
 
 function TopSectionImage() {
   return (
-    <div>
+    <div className="w-full h-full flex justify-center items-center max-w-[500px] mx-auto">
       <Image
         src="/images/background-image-1.png"
-        alt="profile"
-        width="100"
-        height="100"
-        className="w-full h-full"
+        alt="home background image"
+        width="750"
+        height="650"
+        className="max-w-[95%] max-h-[95%] w-full h-full object-contain"
       />
     </div>
   );
