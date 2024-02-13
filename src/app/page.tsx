@@ -1,3 +1,4 @@
+import Footer from "@/components/footer/footer";
 import Header from "@/components/header/header";
 import ScrollSection from "@/components/home/scrollSection";
 import TopSection from "@/components/home/topSection";
@@ -9,6 +10,7 @@ function Home() {
       <Header />
       <TopSection />
       <ScrollSection />
+      <Footer />
     </main>
   );
 }

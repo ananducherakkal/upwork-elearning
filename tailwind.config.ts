@@ -53,7 +53,7 @@ const config = {
           foreground: "rgb(var(--gray-90) / <alpha-value>)",
         },
         accent: {
-          DEFAULT: "rgb(var(--primary) / <alpha-value>)",
+          DEFAULT: "rgb(var(--accent) / <alpha-value>)",
           foreground: "rgb(var(--gray-10) / <alpha-value>)",
         },
         popover: {

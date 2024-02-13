@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "label": "Product",
+    "items": [
+      { "id": 2, "label": "Pricing" },
+      { "id": 3, "label": "Overview" }
+    ]
+  },
+  {
+    "id": 4,
+    "label": "Solutions",
+    "items": [
+      { "id": 5, "label": "Brainstorming" },
+      { "id": 6, "label": "Ideation" },
+      { "id": 7, "label": "Wireframing" },
+      { "id": 8, "label": "Research" }
+    ]
+  },
+  {
+    "id": 9,
+    "label": "View Featuers",
+    "items": [
+      { "id": 10, "label": "Brainstorming" },
+      { "id": 11, "label": "Ideation" },
+      { "id": 12, "label": "Wireframing" },
+      { "id": 13, "label": "Research" }
+    ]
+  },
+  {
+    "id": 14,
+    "label": "Support",
+    "items": [
+      { "id": 15, "label": "Brainstorming" },
+      { "id": 16, "label": "Ideation" },
+      { "id": 17, "label": "Wireframing" },
+      { "id": 18, "label": "Research" }
+    ]
+  },
+  {
+    "id": 19,
+    "label": "Company",
+    "items": [
+      { "id": 20, "label": "Brainstorming" },
+      { "id": 21, "label": "Ideation" },
+      { "id": 22, "label": "Wireframing" },
+      { "id": 23, "label": "Research" }
+    ]
+  }
+]

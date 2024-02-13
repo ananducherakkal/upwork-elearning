@@ -6,7 +6,7 @@ import ScrollSectionSlide from "./scrollSectionSlide";
 
 function ScrollSection() {
   return (
-    <div className="w-full relative">
+    <section className="w-full relative">
       <ScrollSectionSlide
         className="sticky top-0 left-0"
         top
@@ -33,7 +33,7 @@ function ScrollSection() {
           </p>
         </div>
       </ScrollSectionSlide>
-    </div>
+    </section>
   );
 }
 

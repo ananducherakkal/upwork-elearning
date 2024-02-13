@@ -8,7 +8,7 @@ import TopSectionImage from "./topSectionImage";
 
 function TopSection() {
   return (
-    <div
+    <section
       className={cn(
         "w-full bg-primary px-4 md:pl-20 md:pr-16 snap-start",
         styles.backgroundTopSection
@@ -25,7 +25,7 @@ function TopSection() {
           <TopSectionImage />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

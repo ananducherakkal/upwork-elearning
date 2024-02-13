@@ -26,7 +26,7 @@ function ScrollSectionSlide(props: ScrollSectionSlideProps) {
       </div>
       <div
         className={cn(
-          "h-fit md:h-full w-full md:w-1/2 overflow-visible md:mt-24 bg-gray-10 border-t-[100px] border-gray-10 md:border-none md:bg-transparent",
+          "h-fit md:h-full w-full md:w-1/2 overflow-x-visible overflow-y-hidden md:pt-24 bg-gray-10 border-t-[100px] border-gray-10 md:border-none md:bg-transparent",
           top ? "" : "opacity-0",
           styles.backgroundScrollSectionMax
         )}
