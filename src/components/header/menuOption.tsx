@@ -36,8 +36,8 @@ function MenuOption(props: MenuOptionProps) {
         className={cn(
           "text-base h-11 border-b-[3px] flex items-center justify-center cursor-default",
           isActive
-            ? "border-primary onScroll:border-gray-10 text-primary onScroll:text-gray-10 font-bold"
-            : "border-transparent text-primary/55 onScroll:text-gray-10  font-medium"
+            ? "border-primary onScroll:border-gray-10 text-gray-10 onScroll:text-primary font-bold"
+            : "border-transparent text-gray-10 onScroll:text-primary/55  font-medium"
         )}
       >
         {label}

@@ -15,18 +15,18 @@ function ScrollSectionSlide(props: ScrollSectionSlideProps) {
   return (
     <div
       className={cn(
-        "w-full h-screen flex flex-col-reverse md:flex-row z-20",
+        "w-full h-screen flex flex-col-reverse md:flex-row",
         className,
         top ? styles.backgroundScrollSection : "",
-        top ? "z-10" : "z-20 snap-start"
+        top ? "z-20 md:z-10" : "z-10 md:z-20 snap-start"
       )}
     >
-      <div className="h-full w-full md:w-1/2 flex items-center justify-center p-10">
+      <div className="h-[50%] md:h-full md:min-h-none w-full md:w-1/2 flex items-center justify-center p-10">
         {children}
       </div>
       <div
         className={cn(
-          "h-full w-full md:w-1/2 overflow-visible mt-24",
+          "h-fit md:h-full w-full md:w-1/2 overflow-visible md:mt-24 bg-gray-10 md:bg-transparent",
           top ? "" : "opacity-0",
           styles.backgroundScrollSectionMax
         )}
@@ -37,7 +37,7 @@ function ScrollSectionSlide(props: ScrollSectionSlideProps) {
             alt="home background image"
             width="268"
             height="561"
-            className="w-[20%] md:w-[50%] h-[80%] max-w-[300px] min-w-[150px] max-h-full mt-2"
+            className="w-[20%] md:w-[50%] h-[80%] max-w-[300px] min-w-[100px] max-h-full mt-2"
           />
         </div>
       </div>

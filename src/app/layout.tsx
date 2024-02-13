@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="overflow-auto snap-y snap-mandatory">
       <body className={roboto.className}>{children}</body>
     </html>
   );

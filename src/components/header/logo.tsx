@@ -2,7 +2,7 @@ import React from "react";
 
 function Logo() {
   return (
-    <div className="text-primary onScroll:text-gray-10 text-4xl font-bold">
+    <div className="text-gray-10 onScroll:text-primary text-4xl font-bold">
       Tareeq
     </div>
   );

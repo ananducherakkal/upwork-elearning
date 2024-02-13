@@ -5,11 +5,11 @@ import React from "react";
 
 function Home() {
   return (
-    <nav className="w-full h-full flex flex-col overflow-auto snap-y snap-mandatory onScroll">
+    <main className="w-full min-h-full flex flex-col" id="scroll-page">
       <Header />
       <TopSection />
       <ScrollSection />
-    </nav>
+    </main>
   );
 }
 
