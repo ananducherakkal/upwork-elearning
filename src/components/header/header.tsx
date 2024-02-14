@@ -16,11 +16,11 @@ function Header() {
   return (
     <nav
       className={cn(
-        "w-full h-24 px-8 lg:px-20 py-4 fixed top-0 left-0 z-30 transition-colors duration-700",
+        "w-full h-24 px-8 lg:px-20 fixed top-0 left-0 z-30 transition-colors duration-700",
         onScroll ? "onScroll bg-gray-10" : "bg-transparent"
       )}
     >
-      <div className="flex items-center w-full max-w-content">
+      <div className="flex items-center w-full max-w-content py-4 mx-auto">
         <ToogleMenuIcon toggleMenu={toggleMenu} />
         <Logo />
         <Menu open={showMenu} />

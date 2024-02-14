@@ -66,7 +66,7 @@ const config = {
         },
       },
       maxWidth: {
-        content: "1600px",
+        content: "1400px",
       },
       fontSize: {
         lg: ["18px", "29px"],

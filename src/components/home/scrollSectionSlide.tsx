@@ -38,7 +38,7 @@ function ScrollSectionSlide(props: ScrollSectionSlideProps) {
             alt="home background image"
             width="268"
             height="561"
-            className="w-[20%] md:w-[50%] h-[80%] max-w-[300px] min-w-[100px] max-h-full mt-2 object-contain"
+            className="w-[20%] md:w-full h-full min-w-[100px] max-h-full mt-2 object-contain"
           />
         </div>
       </div>

@@ -4,7 +4,7 @@ import React from "react";
 function TopSectionAppDownload() {
   return (
     <div className="text-white pt-4 md:pt-7 pb-16 flex flex-col justify-start items-center lg:items-start">
-      <div className="text-lg md:text-2xl font-semibold uppercase">
+      <div className="text-lg md:text-2xl font-medium uppercase">
         Download App Now
       </div>
       <div className="flex mt-2 space-x-3">

@@ -13,7 +13,7 @@ function ScrollSection() {
       ></ScrollSectionSlide>
       <ScrollSectionSlide className="absolute top-0">
         <div className="text-gray-90 w-full max-w-[604px] pl-4 md:pl-12 border-l-4 border-primary">
-          <h2 className="text-3xl md:text-5xl font-bold">
+          <h2 className="text-3xl md:text-5xl font-extrabold">
             Automate every thing
           </h2>
           <p className="text-base md:text-lg font-normal mt-2 md:mt-7">
@@ -25,7 +25,7 @@ function ScrollSection() {
       </ScrollSectionSlide>
       <ScrollSectionSlide>
         <div className="text-gray-90 w-full max-w-[604px] pl-4 md:pl-12 border-l-4 border-primary">
-          <h2 className="text-3xl md:text-5xl font-bold">Keep focused</h2>
+          <h2 className="text-3xl md:text-5xl font-extrabold">Keep focused</h2>
           <p className="text-base md:text-lg font-normal mt-2 md:mt-7">
             Our powerful app builder will help you build your desired app in
             minutes without coding knowledge and once your app is ready, you can

@@ -8,14 +8,14 @@ function TopSectionImage() {
   const { loadClass, handleImageLoad } = useImageLoad();
 
   return (
-    <div className="w-full h-full flex justify-center items-center max-w-[500px] mx-auto">
+    <div className="w-full h-full flex justify-center items-center mx-auto">
       <Image
         src="/images/background-image-1.png"
         alt="home background image"
         width="750"
         height="650"
         className={cn(
-          "max-w-[95%] max-h-[95%] w-full h-full object-contain",
+          "max-w-full max-h-full w-full h-full object-contain",
           loadClass
         )}
         onLoad={handleImageLoad}
